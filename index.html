@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>STOCK KEEPER</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+       
+    </head>
+    <body>
+        <div class="row">
+            <div class="col_1">
+                <div class="col1_row_1">
+                    <label>Commodities</label>
+                        <select id="comod">
+                            <option value="Rice">Rice</option>
+                            <option value="Wheat">Wheat</option>
+                            <option value="Oil">Oil</option>
+                            <option value="Grain">Grain</option>
+                            <option value="Spices">Spices</option>
+                            <option value="Soap">Soap</option>
+                        </select>
+                    <label>Quantity in Kg:</label>
+                        <input type="number" name="qty" id="qty"/>
+                    <button class="btn_success" id="btn1">SUBMIT</button>
+                </div>
+                <div class="flex-container" id="itemList">
+                    
+                </div>
+            </div>
+            <div class="col_2">
+                <div class="col2_row_1">
+                    <label>Commodities</label>
+                        <select id="saleComod">
+                            
+                        </select>
+                    <label>Quantity in Kg:</label>
+                        <input type="number" name="qty" id="saleqty"/>
+                    <button class="btn_danger" id="btn2">SOLD</button>
+                </div>
+                <div class="col2_row_2"></div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
